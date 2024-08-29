@@ -1,0 +1,77 @@
+.header {
+    margin: 0 auto;
+    width: 1920px;
+    height: 250px;
+    background: #fff;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 112px;
+        height: 112px;
+        display: block;
+        margin-left: 100px;
+    }
+
+    &__contact {
+        width: 1920px;
+        height: 142px;
+        background: url('../img/contact-BG.png') center center/cover no-repeat;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+        &_title {
+            font-family: "SF Pro Text", sans-serif;
+            font-weight: 700;
+            font-size: 50px;
+            color: #fff;
+
+            span {
+                color: #6AD3FF;
+                text-decoration: underline;
+
+            }
+        }
+    }
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 78px;
+
+    &__item {
+        list-style-type: none;
+        font-family: "SF Pro Text", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+
+        a {
+            color: #131515;
+        }
+    }
+
+    &__btn {
+        margin-left: 57px;
+        margin-right: 100px;
+        border-radius: 50px;
+        padding: 16px 36px;
+        background: $main-color;
+        font-family: "SF Pro Text", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+
+}
